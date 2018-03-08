@@ -1,46 +1,31 @@
-<template lang="pug">
-	#app.App(:class="{ 'App--rtl': isRTL }")
-		noscript Your browser does not have JS enabled, you are still able to browse the website but you won't be able to access advanced features such as editing or loggin-in.
-		AppHeader
-		transition(name="fade", mode="out-in")
-			router-view.view
-
+<template>
+  <div id="app">
+    <Header />
+    <router-view/>
+  </div>
 </template>
 
-<style lang="scss">
-@import "~styles/global";
-
-noscript {
-	display: block;
-	padding: 1rem;
-	background-color: red;
-	color: white;
-	font-size: 1.5rem;
-}
-
-.fade-enter-active,
-.fade-leave-active {
-	transition: all 0.2s ease;
-}
-
-.fade-enter,
-.fade-leave-active {
-	opacity: 0;
-}
-</style>
-
 <script>
-import AppHeader from "components/AppHeader.vue"
-
+import Header from "./components/Header";
 export default {
-	name: "App",
-	components: {
-		AppHeader
-	},
-	data: () => {
-		return {
-			isRTL: LANGUAGE_ISRTL
-		}
-	}
+  name: 'App',
+  components:{
+    Header,
+  }
 }
 </script>
+
+<style>
+#app {
+  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+}
+*{
+  padding: 0px;
+  margin: 0px;
+  text-decoration: none;
+}
+</style>
