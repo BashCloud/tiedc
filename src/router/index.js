@@ -3,6 +3,7 @@ import Router from 'vue-router'
 import HelloWorld from '@/components/HelloWorld'
 import Home from "@/components/Home";
 import Srishti from "@/components/Srishti";
+import Aditya from "@/components/Aditya";
 Vue.use(Router)
 
 export default new Router({
@@ -21,6 +22,11 @@ export default new Router({
             path: '/new',
             name: 'newname',
             component: Srishti
+        },
+        {
+            path: '/aditya',
+            name: 'Tiedc',
+            component: Aditya
         }
     ]
 })
