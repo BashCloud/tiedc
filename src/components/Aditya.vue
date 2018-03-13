@@ -7,12 +7,62 @@
           <h4>
             {{msg1}}  
           </h4>
-          <div class="service-box animated fadeIn visible col-xs-4">
-                Hello!!!
-          </div>
+      </div>
+          <div>
+				<!--BOX1-->
+				<div class="col-xs-4 service-box animated fadeIn visible" >
+				<!--icon-->
+				<a class="service-icon" href="#" target="_blank">
+				<i>
+					<img src="../assets/rocket.png" class="iconi">
+				</i>
+				</a>
+				<p class="service-header light white">PROTOTHON</p>
+				</div>
+				<div class="fade top in"
+					style="top: -3px;
+							left:281px;
+							">
+					
+				</div>
+				
+				<div class="col-xs-4 service-box animated fadeIn visible" 
+				>
+				<!--icon-->
+				<a class="service-icon" href="#" target="_blank">
+				<i>
+					<img src="../assets/idea.png" class="iconi">
+				</i>
+				</a>
+				<p class="service-header light white">Weekend Hike</p>
+				</div>
+				<div class="fade top in"
+					style="top: -3px;
+							left:281px;
+							" 
+                            >
+					
+				</div>
+				<div class="col-xs-4 service-box animated fadeIn visible" 
+				>
+				<!--icon-->
+				<a class="service-icon" href="#" target="_blank">
+				<i>
+					<img src="../assets/businessmen-having-a-group-conference.png" class="iconi">
+				</i>
+				</a>
+				<p class="service-header light white">Entrepreneurial Discussions</p>
+				</div>
+				<div class="fade top in"
+					style="top: -3px;
+							left:281px;"
+							>
+					
+				</div>
+			</div>
       </div>
 
-  </div>
+  
 </template>
 
 <script>
@@ -53,9 +103,10 @@ h1{
 }
 .col-xs-4{
     width: 33.333333%;
-    float: left;
+    display: inline-block;
 }
 .fadeIn{
     animation-name: fadeIn;
 }
+
 </style>
