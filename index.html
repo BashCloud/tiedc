@@ -1,14 +1,331 @@
 <!DOCTYPE html>
-<html>
+<html lang="en-us" class="no-js">
 
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <title>tiedc</title>
+    <title>TIED Cell, JUIT</title>
+    <meta name="description" content="Technology Incubation & Entrepreneurship Development Cell 
+    Jaypee University of Information Technology.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Pulkit Aggarwal">
+
+    <!-- =============== Google fonts =============== -->
+    <link href='http://fonts.googleapis.com/css?family=Raleway:400,500,600,800' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,700' rel='stylesheet' type='text/css'>
+
+    <!-- ============ Bootstrap core CSS ============ -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!-- =============== Font Awesome =============== -->
+    <link rel="stylesheet" href="font-awesome-4.3.0/css/font-awesome.min.css">
+
+    <!-- ========== Animation Library CSS3 ========== -->
+    <link rel="stylesheet" href="css/animate.css">
+
+    <!-- ================== Venobox ================= -->
+    <link rel="stylesheet" href="css/venobox.css">
+
+    <!-- ============== Resource style ============== -->
+    <link rel="stylesheet" href="css/style-1.css">
+
+    <!-- Modernizr runs quickly on page load to detect features -->
+    <script src="js/modernizr.js"></script>
+
+    <!-- ============ Special CSS for Animation ============ -->
+    <style>
+        #anim-fs {
+            position: absolute;
+            height: 100%;
+            width: 100%;
+        }
+        
+        #fss-part {
+            background: transparent !important;
+        }
+        
+        #container {
+            height: 100%;
+            position: absolute;
+            width: 100%;
+        }
+        
+        .back-fss {
+            height: 100%;
+            position: absolute;
+            width: 100%;
+        }
+    </style>
 </head>
 
-<body>
-    <div id="app"></div>
+<body id="anim-fs">
+
+    <div class="loading animated-middle">
+        <div class="loader">Loading...</div>
+    </div>
+
+    <div class="border-bar-top"></div>
+    <div class="border-bar-right"></div>
+    <div class="border-bar-bottom">
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-lg-12">
+                <p class="copyright">Copyright 2018 © TIED CELL. All Rights Reserved.</p>
+            </div>
+        </div>
+    </div>
+    <div class="border-bar-left"></div>
+
+    <button class="close-left-part animated-middle"><i class="fa fa-times animated-middle"></i></button>
+    <!-- button used for closing the "More informations" part -->
+    <button class="close-map animated-middle"><i class="fa fa-times animated-middle"></i></button>
+    <!-- button used for closing the map -->
+
+    <div class="social-icons opacity-0 animated-middle">
+        <a href="https://www.facebook.com/TIEDCJUIT" target="_blank"><i class="fa fa-facebook"></i></a>
+        <a href="https://twitter.com/tiedcjuit" target="_blank"><i class="fa fa-twitter"></i></a>
+        <a href="https://www.instagram.com/tiedcjuit/" target="_blank"><i class="fa fa-instagram"></i></a>
+        <a href="https://www.youtube.com/channel/UCIc-gg3fF2A8Exf7s6Cu0Lg" target="_blank"><i class="fa fa-youtube"></i></a>
+    </div>
+    <!-- .social-icons -->
+
+    <div class="list-sections animated-middle">
+
+        <div class="left-part block-info no-padding animated-middle">
+            <!-- <div id="container">
+                <div id="output" class="back-fss"></div>
+            </div> -->
+            <button id="chevron-mobile" class="animated-middle opacity-0"><i class="fa fa-2x fa-chevron-down"></i></button>
+
+            <div class="item-title">
+
+                <img src="img/logo-white.png" alt="" class="my-logo" />
+
+                <span class="line"></span>
+
+                <p>Technology Incubation &amp; Entrepreneurship Development Cell <br />Jaypee University of Information Technology.</p>
+
+                <button class="open-left-part">More Informations</button>
+                <button id="locate-us" class="open-map">Locate Us</button>
+
+            </div>
+            <!-- .item-title -->
+
+            <div class="item-plus part-1 animated-middle">
+
+                <h3>TIED Cell, JUIT</h3>
+
+                <span class="border"></span>
+
+                <div class="row info-contact">
+                    <div class="col-xs-12 col-sm-12 col-lg-12">
+                        <p class="contact">
+                            <i class="fa fa-map-marker"></i> : Jaypee University of Information Technology<br>
+                            <i class="fa fa-phone"></i> : (+91) 9817225332<br>
+                            <i class="fa fa-envelope"></i> : <a href="mailto:info@tiedc.in">info@tiedc.in</a>
+                        </p>
+                    </div>
+                </div>
+
+                <p>Technology Incubator and Entrepreneurship Development Cell is the offocial Entrepreneurship cell of the Jaypee University of Information Technology.</p>
+
+                <br><br><br>
+
+                <!-- <div class="photo-line row">
+
+                    <div class="col-xs-12 col-sm-6 col-lg-6">
+                        <article>
+                            <a class="venobox" data-gall="myGallery" data-title="A new era in the ATHOS saga." href="img/port4.jpg">
+                                <figure>
+                                    <img src="img/port4-mini.jpg" alt="" class="img-responsive" />
+                                    <p>Click</p>
+                                </figure>
+                            </a>
+                            <div class="photo-details">
+                                <h4>Fly in the sky</h4>
+                                <span class="border"></span>
+                                <p>This is what I love, and can't stop loving!<br> I'm told to enjoy every moment, every hour, every minute.
+                                </p>
+                            </div>
+                        </article>
+                    </div>
+
+                    <div class="col-xs-12 col-sm-6 col-lg-6">
+                        <article>
+                            <a class="venobox" data-gall="myGallery" data-title="Here we are!" href="img/port4.jpg">
+                                <figure>
+                                    <img src="img/port1-mini.jpg" alt="" class="img-responsive" />
+                                    <p>Click</p>
+                                </figure>
+                            </a>
+                            <div class="photo-details">
+                                <h4>Like a wizard</h4>
+                                <span class="border"></span>
+                                <p>This is what I love, and can't stop loving!<br> I'm told to enjoy every moment, every hour, every minute.
+                                </p>
+                            </div>
+                        </article>
+                    </div>
+
+                </div> -->
+                <!-- .photo-line -->
+                <!-- 
+                <div class="photo-line row">
+
+                    <div class="col-xs-12 col-sm-6 col-lg-6">
+                        <article>
+                            <a class="venobox" data-gall="myGallery" data-title="Welcome in an other episode" href="img/port4.jpg">
+                                <figure>
+                                    <img src="img/port2-mini.jpg" alt="" class="img-responsive" />
+                                    <p>Click</p>
+                                </figure>
+                            </a>
+                            <div class="photo-details">
+                                <h4>With my best friend</h4>
+                                <span class="border"></span>
+                                <p>This is what I love, and can't stop loving!<br> I'm told to enjoy every moment, every hour, every minute.
+                                </p>
+                            </div>
+                        </article>
+                    </div>
+
+                    <div class="col-xs-12 col-sm-6 col-lg-6">
+                        <article>
+                            <a class="venobox" data-gall="myGallery" data-title="Made for awesome people like You" href="img/port4.jpg">
+                                <figure>
+                                    <img src="img/port3-mini.jpg" alt="" class="img-responsive" />
+                                    <p>Click</p>
+                                </figure>
+                            </a>
+                            <div class="photo-details">
+                                <h4>All around the world</h4>
+                                <span class="border"></span>
+                                <p>This is what I love, and can't stop loving!<br> I'm told to enjoy every moment, every hour, every minute.
+                                </p>
+                            </div>
+                        </article>
+                    </div>
+
+                </div> -->
+                <!-- .photo-line -->
+
+                <br><br>
+
+            </div>
+            <!-- .item-plus -->
+
+        </div>
+        <!-- .left-part -->
+
+        <div id="fss-part" class="middle-part block-info no-padding animated-middle">
+
+            <div id="container">
+                <div id="output" class="back-fss"></div>
+            </div>
+
+            <div class="overlay"></div>
+
+            <div class="item-title">
+
+                <div class="countdown-block">
+
+                    <!-- <div id="countdown_dashboard">
+
+                        <div class="dash-glob">
+                            <div class="dash days_dash">
+                                <div class="digit animated-middle opacity-0">0</div>
+                                <div class="digit animated-middle opacity-0">0</div>
+                                <div class="digit animated-middle opacity-0">0</div>
+                                <div class="text-day animated-middle opacity-0">Days</div>
+                            </div>
+                        </div>
+
+                    </div> -->
+                    <!-- .countdown_dashboard -->
+                    <img src="img/goal.png" alt="" class="my-logo" height="150px" />
+                    <h2 class="animated-middle opacity-0"># Innovating<span class="point"> HIMANCHAL</span></h2>
+                    <span class="line"></span>
+                    <p>We're currently working on our new website!<br> We'll be here soon, click on "Be notified!" to be ready the D Day!</p>
+
+                </div>
+                <!-- .countdown-block -->
+
+                <button id="alert-button-1" class="open-right-part animated-middle opacity-0">Be notified!</button>
+                <button id="alert-button-2" class="open-right-part animated-middle display-none">Back home!</button>
+
+            </div>
+            <!-- .item-title -->
+
+        </div>
+        <!-- .middle-part -->
+
+        <div class="right-part block-info no-padding">
+
+            <div class="item-title">
+
+                <div id="subscribe">
+
+                    <h2>Newsletter</h2>
+                    <span class="line"></span>
+                    <p>Subscribe to receive new ideas, inspiration and our weekly updated!</p>
+                    <p>Don't miss your chance, <strong>Subscribe now!</strong></p>
+
+                    <form action="php/notify-me.php" id="notifyMe" method="POST">
+
+                        <div class="form-group">
+                            <div class="controls">
+                                <input type="text" id="mail-sub" name="email" placeholder="Write your email and stay tuned!" class="form-control email srequiredField">
+                                <button class="btn btn-lg submit">Subscribe</button>
+                                <div class="clear"></div>
+                            </div>
+                        </div>
+
+                    </form>
+
+                </div>
+                <!-- .subscribe -->
+
+            </div>
+            <!-- .item-title -->
+
+        </div>
+        <!-- .right-part -->
+
+    </div>
+    <!-- .list-sections -->
+
+    <div id="map-container">
+        <div class="overlay-map"></div>
+        <div id="map"></div>
+    </div>
+
+    <script>
+        var ambient_value = '#0c1b3e'; // ambient color
+        var diffuse_value = '#2B2D35'; // diffuse color
+    </script>
+
+
+    <!-- * Libraries jQuery and Bootstrap - Be careful to not remove them * -->
+    <script src="js/jquery-2.1.3.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Countdown -->
+    <!-- <script src="js/jquery.lwtCountdown-1.0.js"></script> -->
+
+    <!-- Google Maps API -->
+    <script src="http://maps.google.com/maps/api/js?sensor=false"></script>
+
+    <!-- Newsletter -->
+    <script src="js/notifyMe.js"></script>
+
+    <!-- Add venobox -->
+    <script src="js/venobox.js"></script>
+
+    <!-- Add backstretch -->
+    <script src="js/fss.js"></script>
+    <script src="js/custom-fss.js"></script>
+
+    <!-- Main Js -->
+    <script src="js/main.js"></script>
+
 </body>
 
 </html>
