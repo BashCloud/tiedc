@@ -10,7 +10,7 @@
             msgError503: "Oops. Looks like something went wrong. Please try again later.",
             msgErrorValidation: "This email address looks fake or invalid. Please enter a real email address.",
             msgErrorFormat: "Your e-mail address is incorrect. Please check it and try again.",
-            msgSuccess: "Congrats! You are in list. We will inform you as soon as we finish."
+            msgSuccess: "Congrats! You are in list. We will keep you updated with our upcoming events."
         }, t);
         var r = e(this);
         var i = e(this).find("input[name=email]");
@@ -55,7 +55,7 @@
                     if (e.status == "success") {
                         r.addClass("success-full").removeClass("bad-email");
                         a.removeClass(f);
-						a.removeClass(c);
+                        a.removeClass(c);
                         a.addClass(l);
                         u.text(n.msgSuccess)
                     } else {
