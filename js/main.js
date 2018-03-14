@@ -59,12 +59,12 @@ $(window).load(function() {
     // Deleting fadeInUp to prevent when the user click on it for having the good effect
     setTimeout(function() {
         $("#alert-button-1").addClass("shake").removeClass("fadeInUp");
-        $("#chevron-mobile").addClass("fadeOutDown").removeClass("bounce");
+        // $("#chevron-mobile").addClass("fadeOutDown").removeClass("bounce");
     }, 5900);
 
     setTimeout(function() {
         $("#alert-button-1").addClass("").removeClass("shake");
-        $("#chevron-mobile").addClass("display-none").removeClass("fadeOutDown");
+        // $("#chevron-mobile").addClass("display-none").removeClass("fadeOutDown");
     }, 7100);
 
 });
@@ -161,6 +161,12 @@ $(document).ready(function($) {
     );
 
     // Movement to the right part
+    $('#chevron-mobile').click(function() {
+        $('html, body').animate({
+            scrollTop: $(".middle-part").offset().top
+        }, 700);
+
+    });
     $('#alert-button-1').click(function() {
         if ($(window).width() >= 1025) {
 
