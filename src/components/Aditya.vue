@@ -117,10 +117,10 @@ h1{
 }
 .service-icon{
     display:block;
-		width:70px;
-		height: 70px;
+		width:140px;
+		height: 140px;
 		position: relative;
-		background: transparent;
+		background: whitesmoke;
 		border-radius:12px;
 		border:2px solid #ffffff;
 		z-index: 3;
@@ -131,7 +131,7 @@ h1{
 }
 .iconi{
    width: 72px;
-   margin-top: -10px;
+   margin-top: 36px;
 }
 img{
     vertical-align: middle;
