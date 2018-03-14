@@ -103,10 +103,71 @@ h1{
 }
 .col-xs-4{
     width: 33.333333%;
-    display: inline-block;
+    
+    /* display: inline-block; */
 }
 .fadeIn{
     animation-name: fadeIn;
+}
+.light{
+    font-weight: 100;
+}
+.white{
+    color:white;
+}
+.service-icon{
+    display:block;
+		width:70px;
+		height: 70px;
+		position: relative;
+		background: transparent;
+		border-radius:12px;
+		border:2px solid #ffffff;
+		z-index: 3;
+		margin:0 auto;
+		-webkit-transition: all 0.3s;
+		-moz-transition: all 0.3s;
+		transition: all 0.3s;
+}
+.iconi{
+   width: 72px;
+   margin-top: -10px;
+}
+img{
+    vertical-align: middle;
+    border: 0;
+}
+.service-box{
+    text-align: center;
+    margin: 50px auto 0;
+    cursor: context-menu;
+}
+.service-header {
+    margin-top: 30px;
+    font-size: 18px;
+}
+.h-desc{
+    font-size: 15px;
+    font-weight: 100;
+    text-align: center;
+    margin: 20px auto;
+    max-width: 900px;
+    line-height: 20px;
+}
+.container{
+    width: 100%;
+    height: auto;
+    padding: 0;
+    margin: 0;
+}
+.inner{
+    width: 100%;
+    height: auto;
+    max-width: 1170px;
+    position: relative;
+    margin: 0 auto;
+    padding: 75px 0;
+    text-align: center;
 }
 
 </style>
