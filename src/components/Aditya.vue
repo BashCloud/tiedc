@@ -169,5 +169,8 @@ img{
     padding: 75px 0;
     text-align: center;
 }
+a:hover{
+    background-color: transparent;
+}
 
 </style>
